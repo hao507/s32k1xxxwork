@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: W HJ, XINSHEN, LIC=HN0WF-6HDHZ-CJA6Z-JD31E-H6EJK-MXQB8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\HuWei ME909s LTE\HuWei ME909s LTE.uvprojx
+Project File Date:  08/21/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_S32K142.s...
+compiling nxpQueue.c...
+nxpLib\nxpQueue.c(156): warning:  #2532-D: support for trigraphs is disabled
+      if( PQueue->front == PQueue->rear )  //??==??,????
+nxpLib\nxpQueue.c: 1 warning, 0 errors
+compiling mem909s.c...
+src\mem909s.c(26): warning:  #1293-D: assignment in condition
+  		if (!(*pwcs++ = *s++))
+src\mem909s.c(58): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+      return wcstombs(DestBuf,wcbuf,len); /* convert wide charater string to mutibytes string */
+src\mem909s.c(431): warning:  #260-D: explicit type is missing ("int" assumed)
+  	static prepreFlag = 0;
+src\mem909s.c(556): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  		if(strncmp(rData, "OK", 2)){
+src\mem909s.c(583): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+  	EncodeUCS2(sendData1,(unsigned char*)at_oder);	
+src\mem909s.c(401): warning:  #177-D: variable "msmNum"  was declared but never referenced
+  static unsigned char msmNum = 0;
+src\mem909s.c: 6 warnings, 0 errors
+compiling startup.c...
+compiling system_S32K142.c...
+compiling main.c...
+.\nxpLib\gpio.h(11): warning:  #1295-D: Deprecated declaration GpioInit - give arg types
+  void GpioInit();
+main.c(113): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c: 2 warnings, 0 errors
+compiling gpio.c...
+compiling clocks_and_modes.c...
+compiling canbus.c...
+nxpLib\canbus.c(127): warning:  #940-D: missing return statement at end of non-void function "Canbus0Init" 
+  }
+nxpLib\canbus.c(144): warning:  #223-D: function "Canbus0Recv" declared implicitly
+  	Canbus0Recv(&id, rdata, &len);
+nxpLib\canbus.c(151): warning:  #223-D: function "Canbus0Recv" declared implicitly
+  	Canbus0Recv(&id, rdata, &len);
+nxpLib\canbus.c(190): warning:  #940-D: missing return statement at end of non-void function "Canbus0Send" 
+  }
+nxpLib\canbus.c(192): warning:  #159-D: declaration is incompatible with previous "Canbus0Recv"  (declared at line 144)
+  void Canbus0Recv(uint32_t *id, uint8_t *rdata, uint8_t *len)
+nxpLib\canbus.c: 5 warnings, 0 errors
+compiling uart.c...
+nxpLib\uart.c(416): warning:  #940-D: missing return statement at end of non-void function "uartSendStatusGet" 
+  }
+nxpLib\uart.c: 1 warning, 0 errors
+compiling spi.c...
+nxpLib\spi.c(115): warning:  #940-D: missing return statement at end of non-void function "spiIrqInit" 
+  }
+nxpLib\spi.c(172): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "const void *__restrict__"
+  		  memcpy(rData + readNum, recieve, 4);
+nxpLib\spi.c(223): warning:  #177-D: variable "txCount"  was declared but never referenced
+  	uint16_t txCount, rxCount, sendFlag = 0;
+nxpLib\spi.c: 3 warnings, 0 errors
+compiling timer.c...
+nxpLib\timer.c(187): warning:  #1-D: last line of file ends without a newline
+  }
+nxpLib\timer.c(102): warning:  #550-D: variable "timerLpitMax"  was set but never used
+  static int timerLpitNum = 0, timerLpitMax = 0, heartbeatLpit = 0;
+nxpLib\timer.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=8124 RO-data=1204 RW-data=208 ZI-data=8604  
+FromELF: creating hex file...
+".\Objects\HuWei ME909s LTE.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.S32_SDK_DFP.1.2.0.pack
+                Keil.S32_SDK_DFP.1.2.0
+                NXP S32 SDK including S32K144HFT0VLLT, S32K144LFT0MLLT basic CMSIS Device Support
+   * Component: Startup Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\S32K142HAxxxLHx
+  .\RTE\_Target_1
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: Keil::Device:Startup:2.0.0
+      Source file:   platform\devices\startup.c
+      Source file:   platform\devices\S32K142\startup\arm\startup_S32K142.s
+      Include file:  platform\devices\device_registers.h
+      Source file:   platform\devices\S32K142\startup\system_S32K142.c
+      Include file:  platform\devices\S32K142\startup\system_S32K142.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

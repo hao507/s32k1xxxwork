@@ -1,0 +1,10 @@
+.\objects\type0_muc_test.o: src\Type0_MUC_Test.c
+.\objects\type0_muc_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\type0_muc_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\type0_muc_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\type0_muc_test.o: .\nxpLib\uart.h
+.\objects\type0_muc_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\type0_muc_test.o: .\nxpLib\usertype.h
+.\objects\type0_muc_test.o: .\nxpLib\canbus.h
+.\objects\type0_muc_test.o: .\nxpLib\wdgTps.h
+.\objects\type0_muc_test.o: src\mem909s.h

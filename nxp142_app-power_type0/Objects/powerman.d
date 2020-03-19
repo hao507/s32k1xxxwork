@@ -1,0 +1,17 @@
+.\objects\powerman.o: nxpLib\powerMan.c
+.\objects\powerman.o: nxpLib\powerMan.h
+.\objects\powerman.o: .\power\power_manager.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common/s32_core_cm4.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142/include/S32K142.h
+.\objects\powerman.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\powerman.o: .\RTE\Device\S32K142HAxxxLHx\system_S32K142.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142/include/S32K142_features.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h
+.\objects\powerman.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\powerman.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h
+.\objects\powerman.o: .\power\S32K1xx\power_manager_S32K1xx.h

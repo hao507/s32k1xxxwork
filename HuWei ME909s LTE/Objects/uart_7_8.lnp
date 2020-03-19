@@ -1,0 +1,18 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\us2.o"
+".\objects\judeg.o"
+".\objects\canbus.o"
+".\objects\clocks_and_modes.o"
+".\objects\gpio.o"
+".\objects\nxpqueue.o"
+".\objects\spi.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\startup_s32k142.o"
+".\objects\system_s32k142.o"
+".\objects\startup.o"
+--strict --scatter ".\RTE\Device\S32K142HAxxxLHx\S32K142_32_flash.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\uart_7_8.map" -o .\Objects\uart_7_8.axf

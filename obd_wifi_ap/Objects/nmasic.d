@@ -1,0 +1,12 @@
+.\objects\nmasic.o: wifi\driver\source\nmasic.c
+.\objects\nmasic.o: .\wifi\common/include/nm_common.h
+.\objects\nmasic.o: .\wifi\bsp/include/nm_bsp.h
+.\objects\nmasic.o: .\wifi\winc1500_config.h
+.\objects\nmasic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\nmasic.o: .\nxpLib\printf.h
+.\objects\nmasic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\nmasic.o: .\wifi\common/include/nm_debug.h
+.\objects\nmasic.o: .\wifi\driver/source/nmbus.h
+.\objects\nmasic.o: .\wifi\bus_wrapper/include/nm_bus_wrapper.h
+.\objects\nmasic.o: .\wifi\driver/source/nmasic.h
+.\objects\nmasic.o: .\wifi\driver/include/m2m_types.h

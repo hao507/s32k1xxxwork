@@ -1,0 +1,15 @@
+.\objects\wifi_event_stub.o: winc1500\winc1500_ap_scan\wifi_event_stub.c
+.\objects\wifi_event_stub.o: .\winc1500\winc1500_api.h
+.\objects\wifi_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\wifi_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\wifi_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wifi_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\wifi_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\wifi_event_stub.o: .\winc1500\winc1500_driver_config.h
+.\objects\wifi_event_stub.o: .\winc1500\src\wf_types.h
+.\objects\wifi_event_stub.o: .\winc1500\src\wf_socket.h
+.\objects\wifi_event_stub.o: .\winc1500\src\wf_utils.h
+.\objects\wifi_event_stub.o: .\winc1500\src\wf_errors.h
+.\objects\wifi_event_stub.o: .\winc1500\src\wf_ota.h
+.\objects\wifi_event_stub.o: .\nxpLib\printf.h
+.\objects\wifi_event_stub.o: .\winc1500\demo_config.h

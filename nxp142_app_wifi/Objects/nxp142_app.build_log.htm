@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: W HJ, XINSHEN, LIC=HN0WF-6HDHZ-CJA6Z-JD31E-H6EJK-MXQB8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\S32K142_work\nxp142_app_wifi\nxp142_app.uvprojx
+Project File Date:  03/10/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\nxpLib\canbus.h(6): warning:  #1295-D: Deprecated declaration Canbus0IrqInit - give arg types
+  void Canbus0IrqInit();
+.\nxpLib\canbus.h(11): warning:  #1295-D: Deprecated declaration Canbus1IrqInit - give arg types
+  void Canbus1IrqInit();
+.\nxpLib\canbus.h(15): warning:  #1295-D: Deprecated declaration Canbus1_irq_Reset - give arg types
+  void Canbus1_irq_Reset();
+.\nxpLib\canbus.h(16): warning:  #1295-D: Deprecated declaration Canbus0_irq_Reset - give arg types
+  void Canbus0_irq_Reset();
+.\nxpLib\canbus.h(17): warning:  #1295-D: Deprecated declaration disable_can1 - give arg types
+  void disable_can1();
+.\nxpLib\canbus.h(18): warning:  #1295-D: Deprecated declaration disable_can0 - give arg types
+  void disable_can0();
+.\nxpLib\canbus.h(19): warning:  #1295-D: Deprecated declaration canbus1buffrest - give arg types
+  void canbus1buffrest();
+.\nxpLib\canbus.h(20): warning:  #1295-D: Deprecated declaration canbus0buffrest - give arg types
+  void canbus0buffrest();
+.\nxpLib\canbus.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\nxpLib\timer.h(10): warning:  #1295-D: Deprecated declaration LPTMR_Reset - give arg types
+  void LPTMR_Reset();
+.\nxpLib\timer.h(15): warning:  #1295-D: Deprecated declaration LPIT0_noIrq_init - give arg types
+  void LPIT0_noIrq_init();
+src\main.c(11): warning:  #161-D: unrecognized #pragma
+  #pragma comment(lib, "libprotobuf.lib")
+src\main.h(38): warning:  #1-D: last line of file ends without a newline
+  #endif /* MAIN_H_INCLUDED */
+src\main.c: 13 warnings, 0 errors
+compiling flash_driver.c...
+linking...
+Program Size: Code=2836 RO-data=1108 RW-data=184 ZI-data=8536  
+After Build - User command #1: fromelf.exe --bincombined --bincombined_base=0x4000 --output .\Objects\nxp142app.bin .\Objects\nxp142_app.axf
+".\Objects\nxp142_app.axf": Error: Q0471E: Base address 0x00004000 is above start address 0x00000000 of load region #0
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\nxp142_app.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.S32_SDK_DFP.1.2.0.pack
+                Keil.S32_SDK_DFP.1.2.0
+                NXP S32 SDK including S32K144HFT0VLLT, S32K144LFT0MLLT basic CMSIS Device Support
+   * Component: Startup Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\S32K142HAxxxLHx
+  .\RTE\_Target_1
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: Keil::Device:Startup:2.0.0
+      Include file:  platform\devices\device_registers.h
+      Include file:  platform\devices\S32K142\startup\system_S32K142.h
+      Source file:   platform\devices\S32K142\startup\arm\startup_S32K142.s
+      Source file:   platform\devices\startup.c
+      Source file:   platform\devices\S32K142\startup\system_S32K142.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

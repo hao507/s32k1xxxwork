@@ -1,0 +1,15 @@
+.\objects\mcu_driver.o: wifilib\mcu_driver.c
+.\objects\mcu_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mcu_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mcu_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mcu_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\mcu_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mcu_driver.o: wifilib\winc1500_driver_config.h
+.\objects\mcu_driver.o: wifilib\wf_types.h
+.\objects\mcu_driver.o: wifilib\wf_socket.h
+.\objects\mcu_driver.o: wifilib\wf_utils.h
+.\objects\mcu_driver.o: wifilib\wf_errors.h
+.\objects\mcu_driver.o: wifilib\wf_ota.h
+.\objects\mcu_driver.o: .\nxpLib\gpio.h
+.\objects\mcu_driver.o: .\nxpLib\usertype.h
+.\objects\mcu_driver.o: wifilib\winc1500_api.h

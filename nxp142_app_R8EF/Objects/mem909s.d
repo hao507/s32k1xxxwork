@@ -1,0 +1,11 @@
+.\objects\mem909s.o: C:\Users\Administrator\Desktop\s32k142----SRC\mem909s.c
+.\objects\mem909s.o: .\nxpLib\uart.h
+.\objects\mem909s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mem909s.o: .\nxpLib\timer.h
+.\objects\mem909s.o: .\nxpLib\usertype.h
+.\objects\mem909s.o: C:\Users\Administrator\Desktop\s32k142----SRC\mem909s.h
+.\objects\mem909s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mem909s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mem909s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mem909s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\locale.h
+.\objects\mem909s.o: .\nxpLib\wdgTps.h

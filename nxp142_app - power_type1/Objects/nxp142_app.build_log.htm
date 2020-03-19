@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ��Vision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: W HJ, XINSHEN, LIC=HN0WF-6HDHZ-CJA6Z-JD31E-H6EJK-MXQB8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\S32K142_work\nxp142_app - power_type1\nxp142_app.uvprojx
+Project File Date:  11/14/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling type1_power.c...
+src\mcu_power_massge.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\nxpLib\canbus.h(6): warning:  #1295-D: Deprecated declaration Canbus0IrqInit - give arg types
+  void Canbus0IrqInit();
+.\nxpLib\canbus.h(11): warning:  #1295-D: Deprecated declaration Canbus1IrqInit - give arg types
+  void Canbus1IrqInit();
+.\nxpLib\canbus.h(15): warning:  #1295-D: Deprecated declaration Canbus1_irq_Reset - give arg types
+  void Canbus1_irq_Reset();
+.\nxpLib\canbus.h(16): warning:  #1295-D: Deprecated declaration Canbus0_irq_Reset - give arg types
+  void Canbus0_irq_Reset();
+.\nxpLib\canbus.h(17): warning:  #1295-D: Deprecated declaration disable_can1 - give arg types
+  void disable_can1();
+.\nxpLib\canbus.h(18): warning:  #1295-D: Deprecated declaration disable_can0 - give arg types
+  void disable_can0();
+.\nxpLib\canbus.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+src\type1_power.h(4): warning:  #1295-D: Deprecated declaration type1mcu_receive_type0mcu - give arg types
+  int type1mcu_receive_type0mcu();//接收type0 并初步解�?
+src\type1_power.h(5): warning:  #1295-D: Deprecated declaration type1mcu_send_switch_status_type0mcu - give arg types
+  int type1mcu_send_switch_status_type0mcu();//type1MCU给type0mcu发送打开关闭的状�?
+src\type1_power.h(6): warning:  #1295-D: Deprecated declaration Execution_power_status - give arg types
+  int Execution_power_status();//将type0要执行的操作保存到type1_send_type_1�?
+src\type1_power.h(7): warning:  #1295-D: Deprecated declaration send_zynq_request_type1 - give arg types
+  int send_zynq_request_type1();//询问是否可以执行type1_send_type_1中的操作
+src\type1_power.h(9): warning:  #1295-D: Deprecated declaration receive_zynq_type1 - give arg types
+  int receive_zynq_type1();//接收FPGA的返回内�?
+src\type1_power.h(10): warning:  #1295-D: Deprecated declaration send_FPGA_data_Power_list_type1 - give arg types
+  int send_FPGA_data_Power_list_type1();//将type1中保存的电源状态发送给FPGA
+src\type1_power.h(12): warning:  #1295-D: Deprecated declaration type1_send_type0_Ask_power_list - give arg types
+  int type1_send_type0_Ask_power_list();//向type0 询问电源列表
+src\type1_power.h(13): warning:  #1295-D: Deprecated declaration Save_power_list - give arg types
+  int Save_power_list();//保存type0发过来的电源列表
+src\type1_power.h(14): warning:  #1295-D: Deprecated declaration Execution_TYPE1_5EV - give arg types
+  int Execution_TYPE1_5EV();
+src\type1_power.h(15): warning:  #1295-D: Deprecated declaration Execution_TYPE1_TYPE1_VCC_12V_EN - give arg types
+  int Execution_TYPE1_TYPE1_VCC_12V_EN();
+src\type1_power.h(16): warning:  #1295-D: Deprecated declaration Execution_TYPE1_TX2_SATA - give arg types
+  int Execution_TYPE1_TX2_SATA();
+src\type1_power.h(17): warning:  #1295-D: Deprecated declaration Execution_TYPE1_TX2_NO_SATA - give arg types
+  int Execution_TYPE1_TX2_NO_SATA();
+src\type1_power.h(18): warning:  #1295-D: Deprecated declaration type1_powerinit - give arg types
+  int type1_powerinit();
+src\type1_power.h(19): warning:  #1295-D: Deprecated declaration type1_send_type0_Ask_power_list - give arg types
+  int type1_send_type0_Ask_power_list();
+src\type1_power.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif
+src\type1_power.c(27): warning:  #1295-D: Deprecated declaration type1mcu_receive_type0mcu - give arg types
+  int type1mcu_receive_type0mcu();//接收type0 并初步解�?
+src\type1_power.c(28): warning:  #1295-D: Deprecated declaration type1mcu_send_switch_status_type0mcu - give arg types
+  int type1mcu_send_switch_status_type0mcu();//type1MCU给type0mcu发送打开关闭的状�?
+src\type1_power.c(29): warning:  #1295-D: Deprecated declaration Execution_power_status - give arg types
+  int Execution_power_status();//将type0要执行的操作保存到type1_send_type_1�?
+src\type1_power.c(30): warning:  #1295-D: Deprecated declaration send_zynq_request_type1 - give arg types
+  int send_zynq_request_type1();//询问是否可以执行type1_send_type_1中的操作
+src\type1_power.c(32): warning:  #1295-D: Deprecated declaration receive_zynq_type1 - give arg types
+  int receive_zynq_type1();//接收FPGA的返回内�?
+src\type1_power.c(33): warning:  #1295-D: Deprecated declaration send_FPGA_data_Power_list_type1 - give arg types
+  int send_FPGA_data_Power_list_type1();//将type1中保存的电源状态发送给FPGA
+src\type1_power.c(34): warning:  #1295-D: Deprecated declaration Analysis_zynq_type1 - give arg types
+  int Analysis_zynq_type1();//对FGPA允许的电源进行操�?
+src\type1_power.c(35): warning:  #1295-D: Deprecated declaration type1_send_type0_Ask_power_list - give arg types
+  int type1_send_type0_Ask_power_list();//向type0 询问电源列表
+src\type1_power.c(36): warning:  #1295-D: Deprecated declaration Save_power_list - give arg types
+  int Save_power_list();//保存type0发过来的电源列表
+src\type1_power.c(37): warning:  #1295-D: Deprecated declaration Execution_TYPE1_5EV - give arg types
+  int Execution_TYPE1_5EV();
+src\type1_power.c(38): warning:  #1295-D: Deprecated declaration Execution_TYPE1_TYPE1_VCC_12V_EN - give arg types
+  int Execution_TYPE1_TYPE1_VCC_12V_EN();
+src\type1_power.c(39): warning:  #1295-D: Deprecated declaration Execution_TYPE1_TX2_SATA - give arg types
+  int Execution_TYPE1_TX2_SATA();
+src\type1_power.c(40): warning:  #1295-D: Deprecated declaration Execution_TYPE1_TX2_NO_SATA - give arg types
+  int Execution_TYPE1_TX2_NO_SATA();
+src\type1_power.c(45): warning:  #223-D: function "memset" declared implicitly
+  	memset(&type1_send_type_0,0,sizeof(struct type0));
+src\type1_power.c(51): warning:  #940-D: missing return statement at end of non-void function "type1_powerinit" 
+  }
+src\type1_power.c(61): warning:  #940-D: missing return statement at end of non-void function "Execution_TYPE1_5EV" 
+  }
+src\type1_power.c(71): warning:  #940-D: missing return statement at end of non-void function "Execution_TYPE1_TYPE1_VCC_12V_EN" 
+  }
+src\type1_power.c(81): warning:  #940-D: missing return statement at end of non-void function "Execution_TYPE1_TX2_SATA" 
+  }
+src\type1_power.c(91): warning:  #940-D: missing return statement at end of non-void function "Execution_TYPE1_TX2_NO_SATA" 
+  }
+src\type1_power.c(102): warning:  #940-D: missing return statement at end of non-void function "type1_send_type0_Ask_power_list" 
+  }
+src\type1_power.c(118): warning:  #940-D: missing return statement at end of non-void function "Save_power_list" 
+  }
+src\type1_power.c(135): warning:  #940-D: missing return statement at end of non-void function "type1mcu_receive_type0mcu" 
+  }
+src\type1_power.c(157): warning:  #940-D: missing return statement at end of non-void function "type1mcu_send_switch_status_type0mcu" 
+  }
+src\type1_power.c(141): warning:  #177-D: variable "data0"  was declared but never referenced
+  	char data0 = 0x00;
+src\type1_power.c(143): warning:  #177-D: variable "data2"  was declared but never referenced
+  	char data2 = 0x00;
+src\type1_power.c(192): warning:  #940-D: missing return statement at end of non-void function "Execution_power_status" 
+  }
+src\type1_power.c(227): warning:  #940-D: missing return statement at end of non-void function "send_zynq_request_type1" 
+  }
+src\type1_power.c(246): warning:  #223-D: function "memset" declared implicitly
+  						memset(power_rdata_type1,0,sizeof(power_rdata_type1));
+src\type1_power.c(254): warning:  #223-D: function "memset" declared implicitly
+  							memset(power_rdata_type1,0,sizeof(power_rdata_type1));
+src\type1_power.c(259): warning:  #223-D: function "memset" declared implicitly
+  							memset(power_rdata_type1,0,sizeof(power_rdata_type1));
+src\type1_power.c(263): warning:  #940-D: missing return statement at end of non-void function "receive_zynq_type1" 
+  }
+src\type1_power.c(232): warning:  #550-D: variable "flag"  was set but never used
+  	int flag = 0;
+src\type1_power.c(317): warning:  #940-D: missing return statement at end of non-void function "send_FPGA_data_Power_list_type1" 
+  }
+src\type1_power.c(423): warning:  #940-D: missing return statement at end of non-void function "Analysis_zynq_type1" 
+  }
+src\type1_power.c: 57 warnings, 0 errors
+linking...
+Program Size: Code=11396 RO-data=1144 RW-data=272 ZI-data=8732  
+After Build - User command #1: fromelf.exe --bincombined --bincombined_base=0x4000 --output .\Objects\nxp142app.bin .\Objects\nxp142_app.axf
+".\Objects\nxp142_app.axf" - 0 Error(s), 57 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.S32_SDK_DFP.1.2.0.pack
+                Keil.S32_SDK_DFP.1.2.0
+                NXP S32 SDK including S32K144HFT0VLLT, S32K144LFT0MLLT basic CMSIS Device Support
+   * Component: Startup Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\S32K142HAxxxLHx
+  .\RTE\_Target_1
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: Keil::Device:Startup:2.0.0
+      Include file:  platform\devices\S32K142\startup\system_S32K142.h
+      Source file:   platform\devices\startup.c
+      Source file:   platform\devices\S32K142\startup\arm\startup_S32K142.s
+      Include file:  platform\devices\device_registers.h
+      Source file:   platform\devices\S32K142\startup\system_S32K142.c
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

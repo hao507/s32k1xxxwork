@@ -1,0 +1,42 @@
+T36A4 1134:264 SEGGER J-Link V6.51a (beta) Log File (0000ms, 26693ms total)
+T36A4 1134:264 DLL Compiled: Aug 23 2019 16:11:09 (0000ms, 26693ms total)
+T36A4 1134:264 Logging started @ 2020-01-15 08:12 (0000ms, 26693ms total)
+T36A4 1134:264 JLINK_SetWarnOutHandler(...) (0000ms, 26693ms total)
+T36A4 1134:264 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Jun  2 2222 22:22:22
+Hardware: V9.60
+S/N: 59611001
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+TELNET listener socket opened on port 19021Device "S32K142" selected.WEBSRV 
+Starting webserver (0128ms, 26821ms total)
+T36A4 1134:264 WEBSRV Webserver running on local port 19080 (0128ms, 26821ms total)
+T36A4 1134:264   returns O.K. (0128ms, 26821ms total)
+T36A4 1134:392 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 26821ms total)
+T36A4 1134:392 JLINK_TIF_GetAvailable(...) (0000ms, 26821ms total)
+T36A4 1134:392 JLINK_SetErrorOutHandler(...) (0000ms, 26821ms total)
+T36A4 1134:392 JLINK_ExecCommand("ProjectFile = "D:\S32K142_work\nxp142_app_wifi\JLinkSettings.ini"", ...). Device "S32K142" selected.  returns 0x00 (0001ms, 26822ms total)
+T36A4 1134:393 JLINK_ExecCommand("Device = S32K142HAxxxLHx", ...). Device "S32K142" selected.  returns 0x00 (0001ms, 26823ms total)
+T36A4 1134:394 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetDLLVersion()  returns 65101 (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetFirmwareString(...) (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetDLLVersion()  returns 65101 (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetCompileDateTime() (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetFirmwareString(...) (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 26823ms total)
+T36A4 1134:394 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 26824ms total)
+T36A4 1134:395 JLINK_SetSpeed(500) (0000ms, 26824ms total)
+T36A4 1134:398 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 26824ms total)
+T36A4 1134:398 JLINK_Reset()InitTarget() >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>Scanning AP map to find all available APs >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[2]: Stopped AP scan as end of AP map has been reached
+AP[0]: AHB-AP (IDR: 0x24770011)AP[1]: JTAG-AP (IDR: 0x001C0000)Iterating through AP map to find AHB-AP to use >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[0]: Core foundAP[0]: AHB-AP ROM base: 0xE00FF000 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)Found Cortex-M4 r0p1, Little endian. -- Max. mem block: 0x00010D88 -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+ -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88)CoreSight components:ROMTbl[0] @ E00FF000 -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7 -- CPU_ReadMem(16 bytes @ 0xE0001FF0) -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT -- CPU_ReadMem(16 bytes @ 0xE0002FF0) -- CPU_ReadMem(16 bytes @ 0xE0002FE0)
+ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB -- CPU_ReadMem(16 bytes @ 0xE0000FF0) -- CPU_ReadMem(16 bytes @ 0xE0000FE0)ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 003BB001 ITM -- CPU_ReadMem(16 bytes @ 0xE00FF010) -- CPU_ReadMem(16 bytes @ 0xE0040FF0) -- CPU_ReadMem(16 bytes @ 0xE0040FE0)ROMTbl[0][4]: E0040000, CID: B105900D, PID: 000BB9A1 TPIU -- CPU_ReadMem(16 bytes @ 0xE00FF020)Initializing 28672 bytes work RAM @ 0x1FFFC000 -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)Reset: Halt core after reset via DEMCR.VC_CORERESET. >0x35 TIF>Reset: Reset device via AIRCR.SYSRESETREQ. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) >0x0D TIF> >0x28 TIF> -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000)
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(28672 bytes @ 0x1FFFC000) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)Reset: Halt core after reset via DEMCR.VC_CORERESET. >0x35 TIF>Reset: Reset device via AIRCR.SYSRESETREQ. -- CPU_WriteMem(4 bytes @ 0xE000ED0C) >0x0D TIF> >0x28 TIF> -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (1046ms, 27870ms total)
+T36A4 1135:444 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x2BA01477 (0001ms, 27871ms total)
+T36A4 1135:453 JLINK_GetFirmwareString(...) (0000ms, 27871ms total)
+T36A4 1136:619 JLINK_Close() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001004) (0010ms, 27881ms total)
+T36A4 1136:619  (0010ms, 27881ms total)
+T36A4 1136:619 Closed (0010ms, 27881ms total)

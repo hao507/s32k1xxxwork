@@ -1,0 +1,15 @@
+.\objects\ota_event_stub.o: winc1500\winc1500_ap_scan\ota_event_stub.c
+.\objects\ota_event_stub.o: .\winc1500\winc1500_api.h
+.\objects\ota_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ota_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ota_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ota_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ota_event_stub.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ota_event_stub.o: .\winc1500\winc1500_driver_config.h
+.\objects\ota_event_stub.o: .\winc1500\src\wf_types.h
+.\objects\ota_event_stub.o: .\winc1500\src\wf_socket.h
+.\objects\ota_event_stub.o: .\winc1500\src\wf_utils.h
+.\objects\ota_event_stub.o: .\winc1500\src\wf_errors.h
+.\objects\ota_event_stub.o: .\winc1500\src\wf_ota.h
+.\objects\ota_event_stub.o: .\nxpLib\printf.h
+.\objects\ota_event_stub.o: .\winc1500\demo_config.h

@@ -1,0 +1,9 @@
+.\objects\type1_power.o: src\type1_power.c
+.\objects\type1_power.o: src\mcu_power_massge.h
+.\objects\type1_power.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\type1_power.o: .\nxpLib\canbus.h
+.\objects\type1_power.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\type1_power.o: .\nxpLib\usertype.h
+.\objects\type1_power.o: .\nxpLib\uart.h
+.\objects\type1_power.o: src\type1_power.h
+.\objects\type1_power.o: .\nxpLib\gpio.h

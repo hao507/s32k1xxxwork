@@ -1,0 +1,9 @@
+.\objects\test_yuhuo.o: src\test_yuhuo.c
+.\objects\test_yuhuo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_yuhuo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\test_yuhuo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\test_yuhuo.o: .\nxpLib\uart.h
+.\objects\test_yuhuo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_yuhuo.o: .\nxpLib\usertype.h
+.\objects\test_yuhuo.o: .\nxpLib\canbus.h
+.\objects\test_yuhuo.o: .\nxpLib\wdgTps.h

@@ -1,0 +1,330 @@
+Dependencies for Project 'nxp142_app', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\main.c)(0x5DC52566)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\include\S32K142.h)(0x5CF711CC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (.\nxpLib\clocks_and_modes.h)(0x5CDB0900)
+I (.\nxpLib\gpio.h)(0x5D44B6C2)
+I (.\nxpLib\usertype.h)(0x5D44B6B4)
+I (.\nxpLib\uart.h)(0x5D44C9A6)
+I (src\updata.h)(0x5DA6D944)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (src\mem909s.h)(0x5D9E8156)
+I (src\Type0_mcu_Test.h)(0x5DACA1E0)
+I (src\Type1_mcu_Test.h)(0x5DACA380)
+I (.\nxpLib\wdgTps.h)(0x5D438810)
+I (.\nxpLib\canbus.h)(0x5DA82BDD)
+I (.\nxpLib\timer.h)(0x5DA7D0A0)
+I (src\mcu_power_massge.h)(0x5DC21B00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (src\type2_power.h)(0x5DCE005D)
+F (.\src\mem909s.c)(0x5DCE0633)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\mem909s.o --omf_browse .\objects\mem909s.crf --depend .\objects\mem909s.d)
+I (.\nxpLib\uart.h)(0x5D44C9A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\nxpLib\timer.h)(0x5DA7D0A0)
+I (.\nxpLib\usertype.h)(0x5D44B6B4)
+I (src\mem909s.h)(0x5D9E8156)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\locale.h)(0x5CEB79D6)
+I (.\nxpLib\wdgTps.h)(0x5D438810)
+F (.\src\mem909s.h)(0x5D9E8156)()
+F (.\src\updata.c)(0x5DA8038B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\updata.o --omf_browse .\objects\updata.crf --depend .\objects\updata.d)
+I (.\nxpLib\uart.h)(0x5D44C9A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\nxpLib\usertype.h)(0x5D44B6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\src\updata.h)(0x5DA6D944)()
+F (.\src\Type0_mcu_Test.c)(0x5DB7F7B7)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\type0_mcu_test.o --omf_browse .\objects\type0_mcu_test.crf --depend .\objects\type0_mcu_test.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (.\nxpLib\uart.h)(0x5D44C9A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\nxpLib\usertype.h)(0x5D44B6B4)
+I (.\nxpLib\canbus.h)(0x5DA82BDD)
+I (.\nxpLib\wdgTps.h)(0x5D438810)
+I (src\mem909s.h)(0x5D9E8156)
+F (.\src\Type0_mcu_Test.h)(0x5DACA1E0)()
+F (.\src\Type1_mcu_Test.c)(0x5DB7D295)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\type1_mcu_test.o --omf_browse .\objects\type1_mcu_test.crf --depend .\objects\type1_mcu_test.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (.\nxpLib\uart.h)(0x5D44C9A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\nxpLib\usertype.h)(0x5D44B6B4)
+I (.\nxpLib\canbus.h)(0x5DA82BDD)
+I (.\nxpLib\wdgTps.h)(0x5D438810)
+I (src\mem909s.h)(0x5D9E8156)
+F (.\src\Type1_mcu_Test.h)(0x5DACA380)()
+F (.\src\mcu_power_massge.h)(0x5DC21B00)()
+F (.\src\type2_power.c)(0x5DCE0D27)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\type2_power.o --omf_browse .\objects\type2_power.crf --depend .\objects\type2_power.d)
+I (src\mcu_power_massge.h)(0x5DC21B00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (.\nxpLib\canbus.h)(0x5DA82BDD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\nxpLib\usertype.h)(0x5D44B6B4)
+I (.\nxpLib\uart.h)(0x5D44C9A6)
+I (.\nxpLib\gpio.h)(0x5D44B6C2)
+F (.\src\type2_power.h)(0x5DCE005D)()
+F (.\nxpLib\canbus.c)(0x5DA82BCC)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\canbus.o --omf_browse .\objects\canbus.crf --depend .\objects\canbus.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+I (nxpLib\nxpQueue.h)(0x5D771866)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\nxpLib\canbus.h)(0x5DA82BDD)()
+F (.\nxpLib\clocks_and_modes.c)(0x5CFD8DA2)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\clocks_and_modes.o --omf_browse .\objects\clocks_and_modes.crf --depend .\objects\clocks_and_modes.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (nxpLib\clocks_and_modes.h)(0x5CDB0900)
+F (.\nxpLib\clocks_and_modes.h)(0x5CDB0900)()
+F (.\nxpLib\flash_driver.c)(0x5CFD4228)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\flash_driver.o --omf_browse .\objects\flash_driver.crf --depend .\objects\flash_driver.d)
+I (nxpLib\flash_driver.h)(0x5CFE9114)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (.\include\S32K142.h)(0x5CF711CC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+F (.\nxpLib\flash_driver.h)(0x5CFE9114)()
+F (.\nxpLib\gpio.c)(0x5DB7E72E)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+F (.\nxpLib\gpio.h)(0x5D44B6C2)()
+F (.\nxpLib\nxpQueue.c)(0x5D7EFE7D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\nxpqueue.o --omf_browse .\objects\nxpqueue.crf --depend .\objects\nxpqueue.d)
+I (nxpLib\nxpQueue.h)(0x5D771866)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\nxpLib\nxpQueue.h)(0x5D771866)()
+F (.\nxpLib\pcc_hal.c)(0x5CFD53B0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\pcc_hal.o --omf_browse .\objects\pcc_hal.crf --depend .\objects\pcc_hal.d)
+I (nxpLib\pcc_hal.h)(0x5CFD52A0)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+F (.\nxpLib\pcc_hal.h)(0x5CFD52A0)()
+F (.\nxpLib\powerMan.c)(0x5D50D754)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\powerman.o --omf_browse .\objects\powerman.crf --depend .\objects\powerman.d)
+I (nxpLib\powerMan.h)(0x5D50C0F4)
+I (.\power\power_manager.h)(0x5D50BCAA)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (.\power\S32K1xx\power_manager_S32K1xx.h)(0x5D50D742)
+F (.\nxpLib\powerMan.h)(0x5D50C0F4)()
+F (.\nxpLib\powerManger.c)(0x5D537416)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\powermanger.o --omf_browse .\objects\powermanger.crf --depend .\objects\powermanger.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (nxpLib\powerManger.h)(0x5D532C02)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+F (.\nxpLib\powerManger.h)(0x5D532C02)()
+F (.\nxpLib\printf.c)(0x5D0BE862)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\printf_1.o --omf_browse .\objects\printf_1.crf --depend .\objects\printf_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5CEB79E4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+F (.\nxpLib\printf.h)(0x5D0BE718)()
+F (.\nxpLib\spi.c)(0x5D6CB8E5)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+I (nxpLib\nxpQueue.h)(0x5D771866)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (.\nxpLib\spi.h)(0x5CEB429A)()
+F (.\nxpLib\timer.c)(0x5DA83D1D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (nxpLib\timer.h)(0x5DA7D0A0)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\nxpLib\timer.h)(0x5DA7D0A0)()
+F (.\nxpLib\uart.c)(0x5DA81D99)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (nxpLib\nxpQueue.h)(0x5D771866)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (.\nxpLib\uart.h)(0x5D44C9A6)()
+F (.\nxpLib\usertype.h)(0x5D44B6B4)()
+F (.\nxpLib\watchdog.c)(0x5D6DEBBC)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\watchdog.o --omf_browse .\objects\watchdog.crf --depend .\objects\watchdog.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+I (nxpLib\watchdog.h)(0x5D44B6F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\nxpLib\watchdog.h)(0x5D44B6F4)()
+F (.\nxpLib\wdgTps.c)(0x5D770377)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\wdgtps.o --omf_browse .\objects\wdgtps.crf --depend .\objects\wdgtps.d)
+I (nxpLib\gpio.h)(0x5D44B6C2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (nxpLib\timer.h)(0x5DA7D0A0)
+I (nxpLib\usertype.h)(0x5D44B6B4)
+F (.\nxpLib\wdgTps.h)(0x5D438810)()
+F (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\startup.c)(0x5A3B53E6)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\startup.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+F (RTE\Device\S32K142HAxxxLHx\S32K142_32_flash.sct)(0x5DA70608)()
+F (RTE\Device\S32K142HAxxxLHx\S32K142_32_ram.sct)(0x596E3C0C)()
+F (RTE\Device\S32K142HAxxxLHx\startup_S32K142.s)(0x596E3C0C)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "CPU_S32K142 SETA 1"--list .\listings\startup_s32k142.lst --xref -o .\objects\startup_s32k142.o --depend .\objects\startup_s32k142.d)
+F (RTE\Device\S32K142HAxxxLHx\system_S32K142.c)(0x5A1E3646)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\src -I .\nxpLib -I .\include -I .\equipLib -I .\power -I .\power\S32K1xx -I H:\Keil_v526\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\drivers\src\clock\S32K1xx -I .\Generated_Code-I.\RTE\Device\S32K142HAxxxLHx-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K142-o .\objects\system_s32k142.o --omf_browse .\objects\system_s32k142.crf --depend .\objects\system_s32k142.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142.h)(0x5A3B53E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K142\include\S32K142_features.h)(0x5A1EA6C6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+F (RTE\Device\S32K142HAxxxLHx\system_S32K142.h)(0x5A1E3646)()

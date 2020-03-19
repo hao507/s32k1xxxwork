@@ -1,0 +1,202 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: W WHJ, xingshen, LIC=47GJJ-UNA6N-LCFJF-66ZA3-AWNZ8-042FZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.162.16.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\HuWei ME909s LTE\HuWei ME909s LTE.uvprojx
+Project File Date:  07/23/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_S32K142.s...
+compiling US2.C...
+src\US2.C(12): warning:  #1293-D: assignment in condition
+  		if (!(*pwcs++ = *s++))
+src\US2.C(44): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+      return wcstombs(DestBuf,wcbuf,len); /* convert wide charater string to mutibytes string */
+src\US2.C: 2 warnings, 0 errors
+compiling judeg.c...
+src\judeg.c(59): warning:  #1-D: last line of file ends without a newline
+  }
+src\judeg.c(59): warning:  #940-D: missing return statement at end of non-void function "judeg" 
+  }
+src\judeg.c(10): warning:  #177-D: variable "AT_CREG"  was declared but never referenced
+  	char *AT_CREG = "AT+CREG?\n\r";//查询当前网络注册状况。
+src\judeg.c(11): warning:  #177-D: variable "AT_COPS"  was declared but never referenced
+  	char *AT_COPS = "AT+COPS?\n\r";
+src\judeg.c(12): warning:  #177-D: variable "AT_COPS_"  was declared but never referenced
+  	char *AT_COPS_ = "AT+COPS=?\n\r";//查询 ME 网络注nihao册的当前状态。
+src\judeg.c(13): warning:  #177-D: variable "AT_COPS_0"  was declared but never referenced
+  	char *AT_COPS_0 = "AT+COPS=0\n\r";//自动搜索网络
+src\judeg.c(14): warning:  #177-D: variable "AT_CGATT"  was declared but never referenced
+  	char *AT_CGATT = "AT+CGATT?\n\r";
+src\judeg.c(15): warning:  #177-D: variable "Call"  was declared but never referenced
+  	char *Call = "ATD15773068148;";//拨打 15773068148 电话
+src\judeg.c(16): warning:  #177-D: variable "AT_SYSINFOEX"  was declared but never referenced
+  	char *AT_SYSINFOEX = "AT^SYSINFOEX\n\r";
+src\judeg.c: 9 warnings, 0 errors
+compiling nxpQueue.c...
+nxpLib\nxpQueue.c(156): warning:  #2532-D: support for trigraphs is disabled
+      if( PQueue->front == PQueue->rear )  //??==??,????
+nxpLib\nxpQueue.c: 1 warning, 0 errors
+compiling startup.c...
+compiling gpio.c...
+compiling clocks_and_modes.c...
+compiling system_S32K142.c...
+compiling timer.c...
+nxpLib\timer.h(4): warning:  #1295-D: Deprecated declaration LPTMR_init - give arg types
+  void LPTMR_init();
+nxpLib\timer.c(10): warning:  #550-D: variable "timerFlag"  was set but never used
+  static int timer[TIMER_MAX] = {0}, timerFlag[TIMER_MAX] = {0};
+nxpLib\timer.c: 2 warnings, 0 errors
+compiling main.c...
+.\nxpLib\gpio.h(11): warning:  #1295-D: Deprecated declaration GpioInit - give arg types
+  void GpioInit();
+.\src\judeg.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  			ret = uartSendBlock(UART1, AT_Order, strlen(AT_Order), 50);
+main.c(84): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  					uartSendBlock(UART0,wData_Error,strlen(wData_Error),100);
+main.c(89): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  					ret = uartSendBlock(UART1, AT_Order, strlen(AT_Order), 10);
+main.c(108): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+  								strncpy(recvBuf,rData+recvNum,recvNum_End - recvNum);
+main.c(116): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  							int len = strlen(recvBuf);
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  							int sed_num = uartSendBlock(UART0,recvBuf,strlen(recvBuf),100);
+main.c(120): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  								uartSendBlock(UART0,wData_Error,strlen(wData_Error),100);
+main.c(125): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+  							flag = judeg(AT_Order,recvBuf);
+main.c(144): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		ret = uartSendBlock(UART1, AT_Order, strlen(AT_Order), 100);
+main.c(154): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  					uartSendBlock(UART0,rData,strlen(rData),100);	
+main.c(160): warning:  #940-D: missing return statement at end of non-void function "AT_Send" 
+  }
+main.c(59): warning:  #177-D: variable "Mate_Error"  was declared but never referenced
+  	char Mate_Error[100]={'E','R','R','O','R'};
+main.c(63): warning:  #177-D: variable "flag"  was declared but never referenced
+  	int flag = 1;
+main.c(66): warning:  #177-D: variable "recvIndex"  was declared but never referenced
+  	int recvIndex = 0, recvNum = 0, endFlag = 0, startFlag = 0, sendNum = 0;
+main.c(66): warning:  #177-D: variable "endFlag"  was declared but never referenced
+  	int recvIndex = 0, recvNum = 0, endFlag = 0, startFlag = 0, sendNum = 0;
+main.c(66): warning:  #177-D: variable "sendNum"  was declared but never referenced
+  	int recvIndex = 0, recvNum = 0, endFlag = 0, startFlag = 0, sendNum = 0;
+main.c(182): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  	char 	ch_3 = '\0x1A';
+main.c(182): warning:  #69-D: integer conversion resulted in truncation
+  	char 	ch_3 = '\0x1A';
+main.c(168): warning:  #177-D: variable "AT_CREG"  was declared but never referenced
+  	char *AT_CREG = "AT+CREG?\n\r";//查询当前网络注册状况。
+main.c(169): warning:  #177-D: variable "AT_COPS"  was declared but never referenced
+  	char *AT_COPS = "AT+COPS?\n\r";
+main.c(170): warning:  #177-D: variable "AT_COPS_"  was declared but never referenced
+  	char *AT_COPS_ = "AT+COPS=?\n\r";//查询 ME 网络注nihao册的当前状态。
+main.c(171): warning:  #177-D: variable "AT_COPS_0"  was declared but never referenced
+  	char *AT_COPS_0 = "AT+COPS=0\n\r";//自动搜索网络
+main.c(172): warning:  #177-D: variable "AT_CGATT"  was declared but never referenced
+  	char *AT_CGATT = "AT+CGATT?\n\r";
+main.c(173): warning:  #177-D: variable "Call"  was declared but never referenced
+  	char *Call = "ATD15773068148;";//拨打 15773068148 电话
+main.c(174): warning:  #177-D: variable "AT_SYSINFOEX"  was declared but never referenced
+  	char *AT_SYSINFOEX = "AT^SYSINFOEX\n\r";
+main.c(178): warning:  #177-D: variable "AT_CSCA"  was declared but never referenced
+  	char *AT_CSCA= "\"+8613800100500\",145";
+main.c(181): warning:  #177-D: variable "ch_2"  was declared but never referenced
+  	char 	ch_2 = 0x1A;
+main.c(182): warning:  #177-D: variable "ch_3"  was declared but never referenced
+  	char 	ch_3 = '\0x1A';
+main.c(251): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+      len=EncodeUCS2(str_1,str);
+main.c(256): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c(245): warning:  #177-D: variable "i"  was declared but never referenced
+      int len,i;
+main.c: 33 warnings, 0 errors
+compiling spi.c...
+nxpLib\spi.c(115): warning:  #940-D: missing return statement at end of non-void function "spiIrqInit" 
+  }
+nxpLib\spi.c(172): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "const void *__restrict__"
+  		  memcpy(rData + readNum, recieve, 4);
+nxpLib\spi.c(223): warning:  #177-D: variable "txCount"  was declared but never referenced
+  	uint16_t txCount, rxCount, sendFlag = 0;
+nxpLib\spi.c: 3 warnings, 0 errors
+compiling canbus.c...
+nxpLib\canbus.c(127): warning:  #940-D: missing return statement at end of non-void function "Canbus0Init" 
+  }
+nxpLib\canbus.c(144): warning:  #223-D: function "Canbus0Recv" declared implicitly
+  	Canbus0Recv(&id, rdata, &len);
+nxpLib\canbus.c(151): warning:  #223-D: function "Canbus0Recv" declared implicitly
+  	Canbus0Recv(&id, rdata, &len);
+nxpLib\canbus.c(190): warning:  #940-D: missing return statement at end of non-void function "Canbus0Send" 
+  }
+nxpLib\canbus.c(192): warning:  #159-D: declaration is incompatible with previous "Canbus0Recv"  (declared at line 144)
+  void Canbus0Recv(uint32_t *id, uint8_t *rdata, uint8_t *len)
+nxpLib\canbus.c: 5 warnings, 0 errors
+compiling uart.c...
+nxpLib\uart.c(16): warning:  #550-D: variable "uart0_sendStatus"  was set but never used
+  static uint8_t	uart0_readStatus = 0, uart0_sendStatus = 0;
+nxpLib\uart.c: 1 warning, 0 errors
+linking...
+Program Size: Code=10064 RO-data=1444 RW-data=132 ZI-data=8568  
+FromELF: creating hex file...
+".\Objects\uart_7_8.axf" - 0 Error(s), 56 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.S32_SDK_DFP.1.2.0.pack
+                Keil.S32_SDK_DFP.1.2.0
+                NXP S32 SDK including S32K144HFT0VLLT, S32K144LFT0MLLT basic CMSIS Device Support
+   * Component: Startup Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\S32K142HAxxxLHx
+  .\RTE\_Target_1
+  d:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  d:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices
+  d:\Users\Administrator\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: Keil::Device:Startup:2.0.0
+      Source file:   platform\devices\S32K142\startup\arm\startup_S32K142.s
+      Source file:   platform\devices\startup.c
+      Include file:  platform\devices\device_registers.h
+      Source file:   platform\devices\S32K142\startup\system_S32K142.c
+      Include file:  platform\devices\S32K142\startup\system_S32K142.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

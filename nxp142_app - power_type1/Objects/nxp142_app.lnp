@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\mem909s.o"
+".\objects\updata.o"
+".\objects\type0_mcu_test.o"
+".\objects\type1_mcu_test.o"
+".\objects\type1_power.o"
+".\objects\canbus.o"
+".\objects\clocks_and_modes.o"
+".\objects\flash_driver.o"
+".\objects\gpio.o"
+".\objects\nxpqueue.o"
+".\objects\pcc_hal.o"
+".\objects\powerman.o"
+".\objects\powermanger.o"
+".\objects\printf_1.o"
+".\objects\spi.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\watchdog.o"
+".\objects\wdgtps.o"
+".\objects\startup.o"
+".\objects\startup_s32k142.o"
+".\objects\system_s32k142.o"
+--strict --scatter ".\RTE\Device\S32K142HAxxxLHx\S32K142_32_flash.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\nxp142_app.map" -o .\Objects\nxp142_app.axf
