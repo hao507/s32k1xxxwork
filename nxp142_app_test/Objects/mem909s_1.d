@@ -1,0 +1,10 @@
+.\objects\mem909s_1.o: equipLib\mem909s.c
+.\objects\mem909s_1.o: .\nxpLib\uart.h
+.\objects\mem909s_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mem909s_1.o: .\nxpLib\timer.h
+.\objects\mem909s_1.o: .\nxpLib\usertype.h
+.\objects\mem909s_1.o: equipLib\mem909s.h
+.\objects\mem909s_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mem909s_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mem909s_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mem909s_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\locale.h

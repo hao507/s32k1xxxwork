@@ -353,7 +353,7 @@ int Can_read()
 
 int type0_MCU_test_LTE()
 {
-	LTE_status = mem909s_Init();
+	LTE_status = mem909s_msmInit();
 
 		wdgTps_process();
 	

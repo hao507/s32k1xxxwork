@@ -12,13 +12,9 @@ static int timeOutNum = 0;
 
 #define OUT_TIME	50
 
-#ifdef	TYPE_SUPPORT
 #define FEED_PORTCATE		PORT_D
 #define FEED_PORTNUM		15
-#else
-#define FEED_PORTCATE		PORT_D
-#define FEED_PORTNUM		4
-#endif
+
 //PORT_D, 15
 int wdgTps_init()
 {

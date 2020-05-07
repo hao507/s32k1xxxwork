@@ -46,7 +46,7 @@ extern "C" {
 #endif
 
 /** Security mode */
-#define USE_WEP (0) /*< Set to (1) to use WEP, and (0) to use OPEN */
+#define USE_WEP (1) /*< Set to (1) to use WEP, and (0) to use OPEN */
 
 /** AP mode Settings */
 #define MAIN_WLAN_SSID "DEMO_AP" /* < SSID */

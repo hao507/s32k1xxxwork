@@ -83,9 +83,9 @@ int Canbus0Init(uint32_t baudrate)
 
   }
   canbusParaInit();
-  PCC->PCCn[PCC_PORTB_INDEX] |= PCC_PCCn_CGC_MASK;	/* Enable clock for PORTE */
-   PORTB->PCR[0] |= PORT_PCR_MUX(5);	/* Port E4: MUX = ALT5, CAN0_RX */
-   PORTB->PCR[1] |= PORT_PCR_MUX(5); /* Port E5: MUX = ALT5, CAN0_TX */
+  PCC->PCCn[PCC_PORTC_INDEX] |= PCC_PCCn_CGC_MASK;	/* Enable clock for PORTE */
+   PORTC->PCR[2] |= PORT_PCR_MUX(3);	/* Port E4: MUX = ALT5, CAN0_RX */
+   PORTC->PCR[3] |= PORT_PCR_MUX(3); /* Port E5: MUX = ALT5, CAN0_TX */
 
   PCC->PCCn[PCC_FlexCAN0_INDEX] |= PCC_PCCn_CGC_MASK; /* CGC=1: enable clock to FlexCAN0 */
 

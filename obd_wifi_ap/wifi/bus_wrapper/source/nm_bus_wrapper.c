@@ -45,7 +45,7 @@
 #include "bus_wrapper/include/nm_bus_wrapper.h"
 //#include "atmel_start.h"
 //#include "winc_init.h"
-
+#define print nxprintf
 #define NM_BUS_MAX_TRX_SZ 256
 
 extern struct spi_m_sync_descriptor SPI_0;
@@ -79,14 +79,32 @@ static sint8 spi_rw(uint8 *pu8Mosi, uint8 *pu8Miso, uint16 u16Sz)
 	}
 
 	GpioSetVal(PORT_B, 5, 0);
-	if (!u8SkipMiso) {
-		SpiRecv(pu8Miso,u16Sz,10);
-//		io_read(io, pu8Miso, u16Sz);
-	}
+	int txdat = 0;
+	int rxdat = 0;
 	if (!u8SkipMosi) {
-		SpiSend(pu8Mosi,u16Sz,10);
+		txdat = SpiSend(pu8Mosi,u16Sz,10);
 //		io_write(io, pu8Mosi, u16Sz);
 	}
+	if (!u8SkipMiso) {
+		rxdat = SpiRecv(pu8Miso,u16Sz,10);
+//		io_read(io, pu8Miso, u16Sz);
+	}
+		if (1) {
+		printf("spi tx package =%d\r\n",txdat);
+	
+		for (uint32_t i = 0; i < txdat; i++) {
+			printf("0x%02X ", pu8Mosi[i]);
+		}
+		printf("\r\n");
+	
+		printf("spi rx package =%d\r\n",rxdat);
+	
+		for (uint32_t j = 0; j < rxdat; j++) {
+			printf("0x%02X ", pu8Miso[j]);
+		}
+		printf("\r\n");
+	}
+
 	GpioSetVal(PORT_B, 5, 1);
 #endif
 	return M2M_SUCCESS;

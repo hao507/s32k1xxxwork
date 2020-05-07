@@ -19,7 +19,7 @@
 #pragma comment(lib, "libprotobuf.lib")
 
 #define UPDATA_START_ADDRESS  0x00000000
-#define TYPE 2
+#define TYPE 0
 /*
 	type0   0 
 	type1   1
@@ -94,15 +94,16 @@ void ivcu_poweron()
 void ivcu_poweron()
 {
  int i = 0;
+	GpioInit();
  GpioSetDirection(PORT_D, 0, PORT_OUT);
  GpioSetDirection(PORT_D, 1, PORT_OUT);
  GpioSetDirection(PORT_D, 3, PORT_OUT);
  GpioSetDirection(PORT_D, 4, PORT_OUT);
  GpioSetDirection(PORT_D, 5, PORT_OUT);
  GpioSetDirection(PORT_E, 9, PORT_OUT);
- GpioSetDirection(PORT_E, 10, PORT_OUT);
+ GpioSetDirection(PORT_E, 10, PORT_IN);
  GpioSetDirection(PORT_E, 11, PORT_OUT);
-
+GpioSetDirection(PORT_A,1,PORT_IN);
  GpioSetVal(PORT_D, 0, PORT_HIGH);
  GpioSetVal(PORT_D, 3, PORT_HIGH);
  GpioSetVal(PORT_D, 4, PORT_HIGH);
@@ -131,6 +132,8 @@ void ivcu_poweron()
  GpioSetVal(PORT_D, 1, PORT_HIGH);//XAVIER_RESET
 }
 #endif
+	int num  = -1;
+unsigned char PTA1val = 0;
 int main(void)
 {
 //			GpioSetVal(PORT_D, 15, PORT_HIGH);
@@ -144,6 +147,29 @@ int main(void)
 		wdgTps_init();
 		wdgTps_process();
 		ivcu_poweron();
+#if TYPE == 3
+		 num = TimerCreate(100);
+		unsigned char protval = -1;
+	int timenum = 0;
+			while(1){
+				wdgTps_process();
+				GpioGetVal(PORT_E,10,&protval);
+				if(!protval){
+					GpioSetVal(PORT_D,3,0);
+					delay(8000);
+					GpioSetVal(PORT_D,3,1);
+					break;
+				}
+				int ret = TimerOutGet(100);
+				if(ret == 1){
+					timenum++;
+					if(timenum >= 5){
+						break;
+					}
+				}
+		
+			}
+#endif
 //		GpioSetVal(PORT_D, 15, PORT_HIGH);
 //		delay(8000);
 //		GpioSetVal(PORT_D, 15, PORT_LOW);
@@ -153,6 +179,7 @@ int main(void)
 		char rdata[100]={0};
 		int rLenNow=0;
 		int ret = -1;
+
 #if TYPE == 0
 		type0_MCU_test_init();
 #endif
@@ -166,19 +193,23 @@ int main(void)
 		{
 #if TYPE == 0
 		uartReadIrq(UART0,(unsigned char *)rdata,sizeof(rdata),&rLenNow);
+		type0_MCU_Automatic_testing_Start(rdata,rLenNow);
 #endif
 #if TYPE == 1 || TYPE == 2 || TYPE == 3
 		uartReadIrq(UART1,(unsigned char *)rdata,sizeof(rdata),&rLenNow);
 #endif
 			wdgTps_process();
-#if TYPE == 0
-		type0_MCU_Automatic_testing_Start(rdata,rLenNow);
-#endif
 #if TYPE == 1 || TYPE == 3
 		TYPE1_MCU_Automatic_testing_Start(rdata,rLenNow);
 #endif
 #if TYPE == 2
 		TYPE2_MCU_Automatic_testing_Start(rdata,rLenNow);
+#endif
+#if 	TYPE == 3
+		GpioGetVal(PORT_A,1,&PTA1val);
+			if(PTA1val == 0){
+//				GpioSetVal(PORT_E,9,0);
+			}
 #endif
 			wdgTps_process();
 			int ret = updata(rdata,rLenNow);

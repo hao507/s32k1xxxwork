@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'nxp142_app' 
+ * Project: 'nxp142_mcu_test' 
  * Target:  'Target 1' 
  */
 

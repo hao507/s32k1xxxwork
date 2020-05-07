@@ -1,0 +1,10 @@
+.\objects\type2_mcu_test.o: src\Type2_mcu_Test.c
+.\objects\type2_mcu_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\type2_mcu_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\type2_mcu_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\type2_mcu_test.o: .\nxpLib\uart.h
+.\objects\type2_mcu_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\type2_mcu_test.o: .\nxpLib\usertype.h
+.\objects\type2_mcu_test.o: .\nxpLib\canbus.h
+.\objects\type2_mcu_test.o: .\nxpLib\wdgTps.h
+.\objects\type2_mcu_test.o: src\mem909s.h

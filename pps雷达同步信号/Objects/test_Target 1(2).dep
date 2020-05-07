@@ -1,0 +1,100 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\clocks_and_modes_S32K11x.c)(0x5E208EB2)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\clocks_and_modes_s32k11x.o --omf_browse .\objects\clocks_and_modes_s32k11x.crf --depend .\objects\clocks_and_modes_s32k11x.d)
+I (.\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (src\clocks_and_modes_S32K11x.h)(0x5E208EB2)
+F (.\src\LPUART_S32K11x.c)(0x5E208EB4)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\lpuart_s32k11x.o --omf_browse .\objects\lpuart_s32k11x.crf --depend .\objects\lpuart_s32k11x.d)
+I (.\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (src\LPUART_S32K11x.h)(0x5E208EB4)
+F (.\src\main.c)(0x5E609399)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (src\clocks_and_modes_S32K11x.h)(0x5E208EB2)
+I (src\gpio.h)(0x5D44B6C2)
+I (src\usertype.h)(0x5E5CC1FE)
+I (src\FlexCAN.h)(0x5E208EB0)
+I (src\LPUART_S32K11x.h)(0x5E208EB4)
+F (.\src\gpio.c)(0x5E16DAF8)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\device_registers.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common\s32_core_cm0.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116_features.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\devassert.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (src\usertype.h)(0x5E5CC1FE)
+F (.\src\gpio.h)(0x5D44B6C2)()
+F (.\src\usertype.h)(0x5E5CC1FE)()
+F (.\src\nxpQueue.c)(0x5D7EFE7D)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\nxpqueue.o --omf_browse .\objects\nxpqueue.crf --depend .\objects\nxpqueue.d)
+I (src\nxpQueue.h)(0x5D771866)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\src\nxpQueue.h)(0x5D771866)()
+F (.\src\FlexCAN.c)(0x5E208EB0)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\flexcan.o --omf_browse .\objects\flexcan.crf --depend .\objects\flexcan.d)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\device_registers.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common\s32_core_cm0.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116_features.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\devassert.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (src\FlexCAN.h)(0x5E208EB0)
+F (.\src\FlexCAN.h)(0x5E208EB0)()
+F (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\startup.c)(0x5B3305B6)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\startup.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\device_registers.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common\s32_core_cm0.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116_features.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\devassert.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+F (RTE\Device\S32K116xxxxMFMx\S32K116_17_flash_AC5.sct)(0x5B3305B6)()
+F (RTE\Device\S32K116xxxxMFMx\S32K116_17_ram_AC5.sct)(0x5B3305B6)()
+F (RTE\Device\S32K116xxxxMFMx\startup_S32K116.s)(0x5B3305B6)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "CPU_S32K116 SETA 1"--list .\listings\startup_s32k116.lst --xref -o .\objects\startup_s32k116.o --depend .\objects\startup_s32k116.d)
+F (RTE\Device\S32K116xxxxMFMx\system_S32K116.c)(0x5A7BFA8A)(--gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\include-I.\RTE\Device\S32K116xxxxMFMx-I.\RTE\_Target_1-IE:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices-IE:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common-D__UVISION_VERSION="528" -D_RTE_ -DCPU_S32K116 --C99-o .\objects\system_s32k116.o --omf_browse .\objects\system_s32k116.crf --depend .\objects\system_s32k116.d)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\device_registers.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common\s32_core_cm0.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116.h)(0x5B3305B6)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116\include\S32K116_features.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\devassert.h)(0x5A7BFA8A)
+I (E:\NXP-MCU\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+F (RTE\Device\S32K116xxxxMFMx\system_S32K116.h)(0x5A7BFA8A)()

@@ -1,7 +1,7 @@
 /*
  * uart.c
  *
- *  Created on: 2019Äê5ÔÂ14ÈÕ
+ *  Created on: 2019å¹´5æœˆ14æ—¥
  *      Author: yxl
  */
 #include "timer.h"

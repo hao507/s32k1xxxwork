@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <wdgTps.h>
 
 #define TIMER_MAX	10
 #define TIMER_OUT	1
@@ -198,10 +199,4 @@ void LPIT0_Ch0_IRQHandler (void)
 			heartbeatLpit = 0;
 	}
 }
-int wdgTps_init()
-{
-	int ret = -1;
-	
-	ret = TimerCreate(OUT_TIME);
-	return ret;
-}
+

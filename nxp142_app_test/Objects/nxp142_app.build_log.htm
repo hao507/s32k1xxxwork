@@ -21,14 +21,139 @@ Target DLL:      Segger\JL2CM3.dll V2.99.36.0
 Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
-D:\S32K142_work\nxp142_app_test\nxp142_app.uvprojx
-Project File Date:  11/21/2019
+D:\S32K142_work\nxp142_app_test\nxp142_mcu_test.uvprojx
+Project File Date:  04/29/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-After Build - User command #1: fromelf.exe --bincombined --bincombined_base=0x4000 --output .\Objects\nxp142app.bin .\Objects\nxp142_app.axf
-".\Objects\nxp142_app.axf" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+src\updata.h(3): warning:  #1295-D: Deprecated declaration updata - give arg types
+  int updata();
+src\mem909s.h(30): warning:  #1295-D: Deprecated declaration Low_Power_Consumption - give arg types
+  int Low_Power_Consumption();
+src\mem909s.h(31): warning:  #1295-D: Deprecated declaration mem909s_Init - give arg types
+  int mem909s_Init();
+src\Type0_mcu_Test.h(5): warning:  #1295-D: Deprecated declaration type0_MCU_test_init - give arg types
+  int type0_MCU_test_init();
+src\Type0_mcu_Test.h(7): warning:  #1295-D: Deprecated declaration type0_MCU_test_Canbus - give arg types
+  int type0_MCU_test_Canbus();
+src\Type0_mcu_Test.h(9): warning:  #1295-D: Deprecated declaration type0_MCU_test_LTE - give arg types
+  int type0_MCU_test_LTE();
+src\Type0_mcu_Test.h(11): warning:  #1295-D: Deprecated declaration type0_MCU_test_Power_Management - give arg types
+  void type0_MCU_test_Power_Management();
+src\Type0_mcu_Test.h(12): warning:  #1295-D: Deprecated declaration type0_MCU_test_WDOG - give arg types
+  int type0_MCU_test_WDOG();
+src\Type0_mcu_Test.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+src\Type1_mcu_Test.h(5): warning:  #1295-D: Deprecated declaration TYPE1_MCU_test_init - give arg types
+  int TYPE1_MCU_test_init();
+src\Type1_mcu_Test.h(6): warning:  #1295-D: Deprecated declaration TYPE1_MCU_test_Analysis - give arg types
+  int TYPE1_MCU_test_Analysis();
+src\Type1_mcu_Test.h(7): warning:  #1295-D: Deprecated declaration TYPE1_MCU_test_Canbus - give arg types
+  int TYPE1_MCU_test_Canbus();
+src\Type1_mcu_Test.h(9): warning:  #1295-D: Deprecated declaration TYPE1_MCU_test_LTE - give arg types
+  int TYPE1_MCU_test_LTE();
+src\Type1_mcu_Test.h(11): warning:  #1295-D: Deprecated declaration TYPE1_MCU_test_Power_Management - give arg types
+  void TYPE1_MCU_test_Power_Management();
+src\Type1_mcu_Test.h(13): warning:  #1295-D: Deprecated declaration TYPE1_MCU_test_WDOG - give arg types
+  int TYPE1_MCU_test_WDOG();
+src\Type1_mcu_Test.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\nxpLib\wdgTps.h(4): warning:  #1295-D: Deprecated declaration wdgTps_init - give arg types
+  int wdgTps_init();
+.\nxpLib\wdgTps.h(5): warning:  #1295-D: Deprecated declaration wdgTps_process - give arg types
+  int wdgTps_process();
+.\nxpLib\canbus.h(6): warning:  #1295-D: Deprecated declaration Canbus0IrqInit - give arg types
+  void Canbus0IrqInit();
+.\nxpLib\canbus.h(11): warning:  #1295-D: Deprecated declaration Canbus1IrqInit - give arg types
+  void Canbus1IrqInit();
+.\nxpLib\canbus.h(15): warning:  #1295-D: Deprecated declaration Canbus1_irq_Reset - give arg types
+  void Canbus1_irq_Reset();
+.\nxpLib\canbus.h(16): warning:  #1295-D: Deprecated declaration Canbus0_irq_Reset - give arg types
+  void Canbus0_irq_Reset();
+.\nxpLib\canbus.h(17): warning:  #1295-D: Deprecated declaration disable_can1 - give arg types
+  void disable_can1();
+.\nxpLib\canbus.h(18): warning:  #1295-D: Deprecated declaration disable_can0 - give arg types
+  void disable_can0();
+.\nxpLib\canbus.h(19): warning:  #1295-D: Deprecated declaration canbus1buffrest - give arg types
+  void canbus1buffrest();
+.\nxpLib\canbus.h(20): warning:  #1295-D: Deprecated declaration canbus0buffrest - give arg types
+  void canbus0buffrest();
+.\nxpLib\canbus.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\nxpLib\timer.h(10): warning:  #1295-D: Deprecated declaration LPTMR_Reset - give arg types
+  void LPTMR_Reset();
+.\nxpLib\timer.h(15): warning:  #1295-D: Deprecated declaration LPIT0_noIrq_init - give arg types
+  void LPIT0_noIrq_init();
+src\mcu_power_massge.h(38): warning:  #1295-D: Deprecated declaration send_zynq_request_type0 - give arg types
+  int send_zynq_request_type0();
+src\mcu_power_massge.h(39): warning:  #1295-D: Deprecated declaration receive_zynq_type0 - give arg types
+  int receive_zynq_type0();
+src\mcu_power_massge.h(40): warning:  #1295-D: Deprecated declaration type0_send_power_list_type2 - give arg types
+  int type0_send_power_list_type2();
+src\mcu_power_massge.h(41): warning:  #1295-D: Deprecated declaration save_type1_power_static - give arg types
+  int save_type1_power_static();
+src\mcu_power_massge.h(42): warning:  #1295-D: Deprecated declaration type0_send_power_list_type1 - give arg types
+  int type0_send_power_list_type1();
+src\mcu_power_massge.h(43): warning:  #1295-D: Deprecated declaration save_type2_power_static - give arg types
+  int save_type2_power_static();
+src\mcu_power_massge.h(44): warning:  #1295-D: Deprecated declaration Execution_TYPE0_TYPE0_VCC_12V_EN - give arg types
+  int Execution_TYPE0_TYPE0_VCC_12V_EN();
+src\mcu_power_massge.h(45): warning:  #1295-D: Deprecated declaration Execution_TYPE0_TYPE0_4G - give arg types
+  int Execution_TYPE0_TYPE0_4G();
+src\mcu_power_massge.h(46): warning:  #1295-D: Deprecated declaration Execution_TYPE0_ZYNQ - give arg types
+  int Execution_TYPE0_ZYNQ();
+src\mcu_power_massge.h(47): warning:  #1295-D: Deprecated declaration Analysis_zynq_type0 - give arg types
+  int Analysis_zynq_type0();
+src\mcu_power_massge.h(48): warning:  #1295-D: Deprecated declaration send_data_Power_list_type0 - give arg types
+  int send_data_Power_list_type0();
+src\mcu_power_massge.h(49): warning:  #1295-D: Deprecated declaration send_init - give arg types
+  void send_init();
+src\mcu_power_massge.h(50): warning:  #1295-D: Deprecated declaration type0_send_type1_request - give arg types
+  int type0_send_type1_request();
+src\mcu_power_massge.h(51): warning:  #1295-D: Deprecated declaration type0_send_type2 - give arg types
+  int type0_send_type2();
+src\mcu_power_massge.h(52): warning:  #1295-D: Deprecated declaration type0_send_type1_request - give arg types
+  int type0_send_type1_request();
+src\mcu_power_massge.h(53): warning:  #1295-D: Deprecated declaration type0mcu_receive_type1mcu - give arg types
+  int type0mcu_receive_type1mcu();
+src\mcu_power_massge.h(54): warning:  #1295-D: Deprecated declaration type0mcu_receive_type2mcu - give arg types
+  int type0mcu_receive_type2mcu();
+src\mcu_power_massge.h(55): warning:  #1295-D: Deprecated declaration save_type1_power_static - give arg types
+  int save_type1_power_static();
+src\mcu_power_massge.h(56): warning:  #1295-D: Deprecated declaration save_type2_power_static - give arg types
+  int save_type2_power_static();
+src\mcu_power_massge.h(57): warning:  #1295-D: Deprecated declaration type0_send_power_list_type2 - give arg types
+  int type0_send_power_list_type2();
+src\mcu_power_massge.h(68): warning:  #1-D: last line of file ends without a newline
+  #endif
+src\TYPE2_mcu_Test.h(5): warning:  #1295-D: Deprecated declaration TYPE2_MCU_test_init - give arg types
+  int TYPE2_MCU_test_init();
+src\TYPE2_mcu_Test.h(6): warning:  #1295-D: Deprecated declaration TYPE2_MCU_test_Analysis - give arg types
+  int TYPE2_MCU_test_Analysis();
+src\TYPE2_mcu_Test.h(7): warning:  #1295-D: Deprecated declaration TYPE2_MCU_test_Canbus - give arg types
+  int TYPE2_MCU_test_Canbus();
+src\TYPE2_mcu_Test.h(9): warning:  #1295-D: Deprecated declaration TYPE2_MCU_test_LTE - give arg types
+  int TYPE2_MCU_test_LTE();
+src\TYPE2_mcu_Test.h(11): warning:  #1295-D: Deprecated declaration TYPE2_MCU_test_Power_Management - give arg types
+  void TYPE2_MCU_test_Power_Management();
+src\TYPE2_mcu_Test.h(13): warning:  #1295-D: Deprecated declaration TYPE2_MCU_test_WDOG - give arg types
+  int TYPE2_MCU_test_WDOG();
+src\TYPE2_mcu_Test.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+src\main.c(19): warning:  #161-D: unrecognized #pragma
+  #pragma comment(lib, "libprotobuf.lib")
+src\main.c(235): warning:  #111-D: statement is unreachable
+  	return 0;
+src\main.c(178): warning:  #177-D: variable "LTE_rData"  was declared but never referenced
+  		char LTE_rData[200]={0};
+src\main.c(181): warning:  #177-D: variable "ret"  was declared but never referenced
+  		int ret = -1;
+src\main.c: 61 warnings, 0 errors
+linking...
+Program Size: Code=13448 RO-data=1204 RW-data=324 ZI-data=8324  
+".\Objects\nxp142_app.axf" - 0 Error(s), 61 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -57,11 +182,11 @@ Package Vendor: Keil
 
    * Component: Keil::Device:Startup:2.0.0
       Include file:  platform\devices\device_registers.h
-      Include file:  platform\devices\S32K142\startup\system_S32K142.h
-      Source file:   platform\devices\startup.c
       Source file:   platform\devices\S32K142\startup\system_S32K142.c
       Source file:   platform\devices\S32K142\startup\arm\startup_S32K142.s
-Build Time Elapsed:  00:00:00
+      Source file:   platform\devices\startup.c
+      Include file:  platform\devices\S32K142\startup\system_S32K142.h
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

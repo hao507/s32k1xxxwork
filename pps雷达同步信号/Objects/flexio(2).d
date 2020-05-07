@@ -1,0 +1,14 @@
+.\objects\flexio.o: src\FlexIO.c
+.\objects\flexio.o: E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\device_registers.h
+.\objects\flexio.o: E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\common/s32_core_cm0.h
+.\objects\flexio.o: E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116/include/S32K116.h
+.\objects\flexio.o: E:\NXP-MCU\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flexio.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h
+.\objects\flexio.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h
+.\objects\flexio.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\flexio.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\flexio.o: .\RTE\Device\S32K116xxxxMFMx\system_S32K116.h
+.\objects\flexio.o: E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\S32K116/include/S32K116_features.h
+.\objects\flexio.o: E:\NXP-MCU\Keil\S32K116_SDK_DFP\1.0.0\platform\devices\devassert.h
+.\objects\flexio.o: E:\NXP-MCU\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\flexio.o: src\FlexIO.h

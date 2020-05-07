@@ -20,7 +20,7 @@ extern int8_t updata_status;
 #define CMD_FB_CHECK				0X04
 #define CMD_FB_JUMP_BOOT		0X67
 #define MCUSEND_END					0X0D
-#define TYPE 2
+#define TYPE 0
 /*
 type0   0
 type1   1 

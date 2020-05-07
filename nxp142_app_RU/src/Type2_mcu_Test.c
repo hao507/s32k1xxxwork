@@ -336,7 +336,7 @@ unsigned char wdata[8] = {0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08};
 
 int TYPE2_MCU_test_LTE()
 {
-	TYPE2_LTE_status	= mem909s_Init();
+	TYPE2_LTE_status	= mem909s_msmInit();
 		wdgTps_process();
 	
 	if(TYPE2_LTE_status == 0){

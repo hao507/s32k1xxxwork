@@ -1,0 +1,14 @@
+--cpu Cortex-M0+
+".\objects\clocks_and_modes_s32k11x.o"
+".\objects\lpuart_s32k11x.o"
+".\objects\main.o"
+".\objects\gpio.o"
+".\objects\nxpqueue.o"
+".\objects\flexcan.o"
+".\objects\startup.o"
+".\objects\startup_s32k116.o"
+".\objects\system_s32k116.o"
+--strict --scatter ".\RTE\Device\S32K116xxxxMFMx\S32K116_17_flash_AC5.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\test.map" -o .\Objects\test.axf

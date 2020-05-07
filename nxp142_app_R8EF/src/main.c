@@ -49,10 +49,12 @@ void delay(volatile int cycles)
     /* Delay function - do nothing for a number of cycles */
     while(cycles--);
 }
-
+float k1 = 0.62375;
+float b1 = 876.25;
+float k0 = 0.62625;
+float b0 = 873.75;
 void decode(unsigned char *buff,unsigned short *val,int ind)
 {
-	
     val[0] = ((buff[ind + 1] | buff[ind + 2] << 8) & 0x07FF);
     val[1] = ((buff[ind + 2] >> 3 | buff[ind + 3] << 5) & 0x07FF);
     val[2] = ((buff[ind + 3] >> 6 | buff[ind + 4] << 2 | buff[ind + 5] << 10) & 0x07FF);
@@ -69,6 +71,7 @@ void decode(unsigned char *buff,unsigned short *val,int ind)
     val[13] = ((buff[ind + 18] >> 7 | buff[ind + 19] << 1 | buff[ind + 20] << 9) & 0x07FF);
     val[14] = ((buff[ind + 20] >> 2 | buff[ind + 21] << 6) & 0x07FF);
     val[15] = ((buff[ind + 21] >> 5 | buff[ind + 22] << 3) & 0x07FF);
+
 }
 #define SBUS_START 0x0F
 int main(void)
@@ -83,7 +86,7 @@ int main(void)
   SOSC_init_8MHz();        /* Initialize system oscillator for 8 MHz xtal */
   SPLL_init_160MHz();      /* Initialize SPLL to 160 MHz with 8 MHz SOSC */
   NormalRUNmode_80MHz();   /* Init clocks: 80 MHz sysclk & core, 40 MHz bus, 20 MHz flash */
-		uartInit(UART0,100000);
+		uartInit(UART0,9600);
 		uartIrqInit(UART0);	/* Configure ports */
 		uartInit(UART1,100000);
 		uartIrqInit(UART1);
@@ -94,6 +97,7 @@ int main(void)
 	 * ========================
 	 */
 	unsigned char rData[50]={0};
+	unsigned char buf[50]={0};
 	int rLenNow = 0;
 	char CanSendId = 0x12;
 //	unsigned char sendData[16]={1,2,3};
@@ -108,13 +112,44 @@ int main(void)
 			int j = 0;
   for(;;)
   {
-
 		uartReadIrq(UART1, rData,sizeof(rData),&rLenNow);
 		if(rLenNow >= 25){
 			for(int i = 0; i < rLenNow;i++){
-			if(rData[i] == 0x0F && rData[i+24] == 0x00 && rLenNow == 25){
+			if(rData[i] == 0x0F && rData[i+24] == 0x00){
 				decode(rData,data,i);
-				if((data[5] == 0xC8 || data[5] == 0x708 )&& (data[4] == 0x708 || data[4] == 0x3E8 || data[4] == 0x0c8) &&(data[8] == data[9])){
+
+				if((data[5] == 0xC8 || data[5] == 0x708 )&& (data[4] == 0x708 || data[4] == 0x3E8 || data[4] == 0x0c8) &&(data[8] == data[9]) && (data[15] == 0x400)){
+					if(data[0] >= 1000){
+						data[0] = data[0]*k1+b1;
+					}
+					else{
+						data[0] = data[0]*k0+b0;
+					}
+//					//    val[0] = ((buff[ind + 1] | buff[ind + 2] << 8) & 0x07FF);
+						if(data[1] >= 1000){
+							data[1] = data[1]*k1+b1;
+						}
+						else if(data[1] < 1000) {
+							data[1] = data[1]*k0+b0;
+						}
+						if(data[2] >= 1000){
+							data[2] = data[2]*k1+b1;
+						}
+						else if(data[2] < 1000) {
+							data[2] = data[2]*k0+b0;
+						}
+						if(data[3] >= 1000){
+							data[3] = data[3]*k1+b1;
+						}
+						else if(data[3] < 1000) {
+							data[3] = data[3]*k0+b0;
+						}
+						if(data[7] >= 1000){
+							data[7] = data[7]*k1+b1;
+						}
+						else if(data[7] < 1000) {
+							data[7] = data[7]*k0+b0;
+						}
 					if(data[0] != data1[0]){
 							data1[0] = data[0];
 						int cansendID = 0x010;
@@ -126,7 +161,7 @@ int main(void)
 					if(data[1] != data1[1]){
 						int diff = data[1]-data1[1];
 							data1[1] = data[1];
-							int cansendID = 0x012;
+							int cansendID = 0x011;
 							cansend[0] = (data[1] >> 8)&0xFF;
 							cansend[1] = data[1] & 0xFF;
 							Canbus0Send(cansendID,(unsigned char *)cansend,2,CAN_STANDARD_MODE);
@@ -134,7 +169,7 @@ int main(void)
 					}
 					if(data[2] != data1[2]){
 							data1[2] = data[2];
-							int cansendID = 0x011;
+							int cansendID = 0x012;
 							cansend[0] = (data[2] >> 8)&0xFF;
 							cansend[1] = data[2] & 0xFF;
 							Canbus0Send(cansendID,(unsigned char *)cansend,2,CAN_STANDARD_MODE);
@@ -211,7 +246,9 @@ int main(void)
 						Canbus0Send(cansendID,(unsigned char *)cansend,2,CAN_STANDARD_MODE);
 						delay(8000);
 					}
+					memset(rData,1,50);
 				}
+				break;
 				}
 			}
 		}

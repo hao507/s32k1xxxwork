@@ -1,0 +1,13 @@
+.\objects\main.o: src\main.c
+.\objects\main.o: .\include\S32K116.h
+.\objects\main.o: E:\NXP-MCU\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h
+.\objects\main.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h
+.\objects\main.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\main.o: E:\NXP-MCU\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\main.o: .\RTE\Device\S32K116xxxxMFMx\system_S32K116.h
+.\objects\main.o: src\clocks_and_modes_S32K11x.h
+.\objects\main.o: src\gpio.h
+.\objects\main.o: src\usertype.h
+.\objects\main.o: src\FlexCAN.h
+.\objects\main.o: src\LPUART_S32K11x.h
